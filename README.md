@@ -6,6 +6,9 @@ To develop an image classification model using transfer learning with VGG19 arch
 ## Problem Statement and Dataset
 Transfer Learning uses a pre-trained model (like one trained on ImageNet) to solve a new but related task, improving efficiency and performance. VGG19 is a 19-layer CNN that extracts features using convolutional layers and classifies using fully connected layers. In transfer learning, the convolutional layers are usually frozen, and only the final layers are retrained for the new task.## Neural Network Model
 
+## Theory
+Transfer learning is a technique in deep learning where a pre-trained model is reused to solve a new but related problem, reducing the need for large datasets and training time. In this experiment, the VGG19 model, pre-trained on ImageNet, is used for image classification. The convolutional layers extract general features like edges and patterns, while new fully connected layers are added for the specific dataset. This approach improves accuracy and avoids overfitting even with limited data. Thus, transfer learning with VGG19 enables efficient and effective image classification.
+
 ## Neural Network Model
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/43600277-359e-457b-9767-e954c59aac57" />
 
